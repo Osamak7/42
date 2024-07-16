@@ -1,5 +1,7 @@
 #include <unistd.h>
-#include <string.h>
+
+#include <sys/stat.h>
+
 void stampa( char a, char b, char c)
 {
 	char	virgola[3];
@@ -39,8 +41,3 @@ void	ft_print_comb(void)
 	}
 }
 
-int main (void)
-{
-	ft_print_comb();
-	return 0;
-}

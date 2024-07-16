@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include <sys/stat.h>
+
 
 void ft_print_numbers(void){
 	char  numbers = 48;

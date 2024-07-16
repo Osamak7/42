@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <sys/stat.h>
 
 void ft_is_negative(int n){
 	
